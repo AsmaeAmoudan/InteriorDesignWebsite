@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Intérieur contemporain marocain">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8C3A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B79B78" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="0" y="648" width="1600" height="252" fill="url(#floor)"/>
+  
+  <g opacity="0.85">
+    <rect x="160" y="180" width="400" height="450" fill="#D8C3A5" opacity="0.4"/>
+    <rect x="640" y="405" width="400" height="108" rx="4" fill="#B79B78"/>
+    <rect x="640" y="324" width="400" height="90" rx="4" fill="#D8C3A5"/>
+    <rect x="672" y="342" width="128" height="54" rx="2" fill="#FAF8F4"/>
+    <rect x="832" y="342" width="128" height="54" rx="2" fill="#FAF8F4"/>
+    <rect x="1120" y="270" width="48" height="360" fill="#292725" opacity="0.3"/>
+    <circle cx="1312" cy="270" r="36" fill="#C98F73" opacity="0.4"/>
+  </g>
+  <text x="800" y="870" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#746E67" letter-spacing="2">Intérieur contemporain marocain</text>
+  <text x="800" y="888" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#746E67" letter-spacing="1">Composition salon et table basse</text>
+</svg>
