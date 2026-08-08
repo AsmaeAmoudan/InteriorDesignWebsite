@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Bahaj — Magasin de meubles design au Maroc</title>
+  <meta name="description" content="Atelier Bahaj, magasin de meubles au Maroc spécialisé dans le mobilier moderne et contemporain. Salons, canapés, salle à manger, chambres et mobilier extérieur. Découvrez nos collections.">
+  <link rel="canonical" href="https://www.atelierbahaj.ma/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_MA">
+  <meta property="og:site_name" content="Atelier Bahaj">
+  <meta property="og:title" content="Atelier Bahaj — Le mobilier qui illumine votre intérieur">
+  <meta property="og:description" content="Magasin de meubles design au Maroc. Mobilier contemporain, salons, canapés, salle à manger, chambres et mobilier extérieur.">
+  <meta property="og:url" content="https://www.atelierbahaj.ma/">
+  <meta property="og:image" content="assets/images/hero/hero-salon-moderne.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Atelier Bahaj — accueil">
+        <img src="assets/logo/logo.svg" alt="Atelier Bahaj" height="42">
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="salons.html">Salons</a></li>
+          <li><a href="canapes.html">Canapés</a></li>
+          <li><a href="salle-a-manger.html">Salle à manger</a></li>
+          <li><a href="chambres.html">Chambres</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="header-whatsapp wa-general">
+          <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2zm0 23.04h-.004a10.6 10.6 0 0 1-5.4-1.48l-.387-.23-4.02 1.055 1.073-3.92-.252-.402a10.58 10.58 0 0 1-1.62-5.663c0-5.86 4.77-10.63 10.634-10.63 2.84 0 5.508 1.107 7.517 3.116a10.56 10.56 0 0 1 3.113 7.517c0 5.86-4.77 10.63-10.63 10.63zm5.832-7.953c-.32-.16-1.89-.932-2.183-1.04-.293-.107-.507-.16-.72.16-.213.32-.826 1.04-1.013 1.253-.187.213-.373.24-.693.08-.32-.16-1.35-.498-2.572-1.587-.95-.847-1.592-1.893-1.778-2.213-.187-.32-.02-.493.14-.653.144-.143.32-.373.48-.56.16-.187.213-.32.32-.533.107-.213.053-.4-.027-.56-.08-.16-.72-1.733-.987-2.373-.26-.623-.524-.54-.72-.55l-.613-.01c-.213 0-.56.08-.853.4-.293.32-1.12 1.093-1.12 2.667 0 1.573 1.147 3.093 1.307 3.307.16.213 2.253 3.44 5.46 4.823.763.33 1.358.527 1.822.674.766.244 1.463.21 2.014.127.614-.092 1.89-.773 2.157-1.52.267-.747.267-1.387.187-1.52-.08-.133-.293-.213-.613-.373z"/></svg>
+          WhatsApp
+        </a>
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu-overlay" aria-hidden="true"></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-label="Menu de navigation mobile">
+    <div class="mobile-menu-header">
+      <img src="assets/logo/logo.svg" alt="Atelier Bahaj" height="36">
+      <button class="mobile-menu-close" aria-label="Fermer le menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav" aria-label="Navigation mobile">
+      <a href="index.html">Accueil</a>
+      <a href="collections.html">Collections</a>
+      <a href="salons.html">Salons</a>
+      <a href="canapes.html">Canapés</a>
+      <a href="salle-a-manger.html">Salle à manger</a>
+      <a href="chambres.html">Chambres</a>
+      <a href="chaises.html">Chaises</a>
+      <a href="mobilier-exterieur.html">Mobilier extérieur</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="#" class="btn btn-whatsapp btn-block wa-general">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="18" height="18"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+        Commander sur WhatsApp
+      </a>
+      <a href="contact.html" class="btn btn-secondary btn-block">Demander un devis</a>
+    </div>
+  </aside>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/images/hero/hero-salon-moderne.svg" alt="Salon moderne beige avec canapé confortable et table basse en bois clair — Atelier Bahaj">
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">Mobilier contemporain — Maroc</span>
+          <h1>Le mobilier qui illumine votre intérieur</h1>
+          <p class="lead">Atelier Bahaj compose des intérieurs contemporains et chaleureux. Des salons élégants aux chambres raffinées, nous sélectionnons des meubles pensés pour le confort, la durabilité et l'harmonie de votre maison.</p>
+          <div class="hero-actions">
+            <a href="collections.html" class="btn btn-primary btn-lg">Découvrir nos collections</a>
+            <a href="#" class="btn btn-whatsapp btn-lg wa-general">
+              <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="18" height="18"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+              Nous contacter sur WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REASSURANCE BAR
+         ============================================================ -->
+    <section class="reassurance">
+      <div class="container">
+        <div class="reassurance-grid">
+          <div class="reassurance-item">
+            <div class="reassurance-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <div>
+              <h4>Mobilier sélectionné</h4>
+              <p>Des pièces choisies pour leur design et leur confort.</p>
+            </div>
+          </div>
+          <div class="reassurance-item">
+            <div class="reassurance-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <div>
+              <h4>Livraison au Maroc</h4>
+              <p>Service de livraison dans plusieurs villes marocaines.</p>
+            </div>
+          </div>
+          <div class="reassurance-item">
+            <div class="reassurance-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 2l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div>
+              <h4>Showroom</h4>
+              <p>Venez découvrir nos collections en personne.</p>
+            </div>
+          </div>
+          <div class="reassurance-item">
+            <div class="reassurance-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div>
+              <h4>Conseil personnalisé</h4>
+              <p>Un accompagnement pour composer votre intérieur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED CATEGORIES
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Nos collections</span>
+          <h2>Explorez nos univers de mobilier</h2>
+          <p class="lead">Du salon à la chambre, en passant par la salle à manger et l'extérieur, chaque collection Atelier Bahaj répond à une envie de confort, de lumière et d'élégance contemporaine.</p>
+        </div>
+
+        <div class="category-cards">
+          <a href="salons.html" class="category-card">
+            <img src="assets/images/salons/salon-moderne-beige.svg" alt="Salon moderne beige avec canapé confortable et table basse en bois clair">
+            <div class="category-card-overlay">
+              <h3>Salons</h3>
+              <p>Compositions salon contemporaines</p>
+              <span class="category-card-link">Voir les salons
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="canapes.html" class="category-card">
+            <img src="assets/images/canapes/canape-noura-linen.svg" alt="Canapé moderne en lin beige avec coussins confortables">
+            <div class="category-card-overlay">
+              <h3>Canapés</h3>
+              <p>Confort et lignes épurées</p>
+              <span class="category-card-link">Découvrir les canapés
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="salle-a-manger.html" class="category-card">
+            <img src="assets/images/salle-a-manger/table-bahia-chene.svg" alt="Table à manger moderne en bois clair avec chaises design">
+            <div class="category-card-overlay">
+              <h3>Salle à manger</h3>
+              <p>Tables et ensembles repas</p>
+              <span class="category-card-link">Voir la salle à manger
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="chambres.html" class="category-card">
+            <img src="assets/images/chambres/lit-sienna-tissu.svg" alt="Chambre à coucher moderne avec lit en tissu beige et chevet en bois clair">
+            <div class="category-card-overlay">
+              <h3>Chambres</h3>
+              <p>Lits et ensembles chambre</p>
+              <span class="category-card-link">Découvrir les chambres
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="chaises.html" class="category-card">
+            <img src="assets/images/chaises/chaise-elia-design.svg" alt="Chaise design en bois clair pour salle à manger">
+            <div class="category-card-overlay">
+              <h3>Chaises</h3>
+              <p>Chaises design et confortables</p>
+              <span class="category-card-link">Voir les chaises
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <a href="mobilier-exterieur.html" class="category-card">
+            <img src="assets/images/exterieur/salon-jardin-resine.svg" alt="Salon de jardin moderne avec fauteuils et table basse extérieurs">
+            <div class="category-card-overlay">
+              <h3>Mobilier extérieur</h3>
+              <p>Salons de jardin et extérieurs</p>
+              <span class="category-card-link">Voir le mobilier extérieur
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         NEW ARRIVALS
+         ============================================================ -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Nouveautés</span>
+          <h2>Nos dernières arrivées</h2>
+          <p class="lead">Une sélection de pièces récemment intégrées à nos collections, pensées pour apporter lumière et confort à votre intérieur.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card-image">
+              <span class="product-badge new">Nouveau</span>
+              <a href="produit.html">
+                <img src="assets/images/produits/canape-noura-01.svg" alt="Canapé Noura 3 places en lin beige avec coussins">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Canapés</span>
+              <h3 class="product-name">Canapé Noura</h3>
+              <p class="product-desc">Canapé 3 places en lin beige, assise profonde et accoudoirs enveloppants.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Canapé Noura">
+                  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="16" height="16"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+                  Commander sur WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <span class="product-badge new">Nouveau</span>
+              <a href="produit.html">
+                <img src="assets/images/produits/table-bahia-01.svg" alt="Table Bahia à manger en chêne clair aux lignes modernes">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Salle à manger</span>
+              <h3 class="product-name">Table Bahia</h3>
+              <p class="product-desc">Table à manger en bois clair, plateau généreux et piétement épuré.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Table Bahia">
+                  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="16" height="16"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+                  Commander sur WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <span class="product-badge new">Nouveau</span>
+              <a href="produit.html">
+                <img src="assets/images/produits/fauteuil-lina-01.svg" alt="Fauteuil Lina confortable en lin beige avec structure en bois">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Salons</span>
+              <h3 class="product-name">Fauteuil Lina</h3>
+              <p class="product-desc">Fauteuil enveloppant en lin, structure en bois clair et assise moelleuse.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Fauteuil Lina">
+                  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="16" height="16"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+                  Commander sur WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <span class="product-badge new">Nouveau</span>
+              <a href="produit.html">
+                <img src="assets/images/produits/lit-sienna-01.svg" alt="Lit Sienna double en tissu beige avec tête de lit rembourrée">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Chambres</span>
+              <h3 class="product-name">Lit Sienna</h3>
+              <p class="product-desc">Lit double en tissu beige, tête de lit rembourrée et lignes douces.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Lit Sienna">
+                  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="16" height="16"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+                  Commander sur WhatsApp
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center mt-xl">
+          <a href="collections.html" class="btn btn-outline btn-lg">Explorer toutes nos collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDITORIAL — QUALITY & COMFORT
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="editorial">
+          <div class="editorial-image">
+            <img src="assets/images/hero/hero-interieur-complet.svg" alt="Intérieur contemporain marocain avec salon et table basse en bois clair">
+          </div>
+          <div class="editorial-content">
+            <span class="eyebrow">Notre approche</span>
+            <h2>Des meubles pensés pour le confort et la lumière</h2>
+            <p>Chez Atelier Bahaj, nous croyons qu'un intérieur réussi repose sur l'équilibre entre confort, fonctionnalité et élégance. Nos collections sont composées avec soin pour s'intégrer harmonieusement dans les intérieurs marocains contemporains, en jouant sur les matières naturelles, les teintes douces et les lignes épurées.</p>
+            <p>Bois clair, lin, céramique et cuir naturel se rencontrent pour créer des espaces chaleureux et lumineux. Chaque pièce est choisie pour sa qualité, sa durabilité et sa capacité à traverser les saisons sans perdre son caractère.</p>
+            <a href="a-propos.html" class="btn btn-accent">Découvrir notre histoire</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HIGHLIGHTED PRODUCTS
+         ============================================================ -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Sélection Atelier Bahaj</span>
+          <h2>Pièces mises en lumière</h2>
+          <p class="lead">Une sélection de meubles qui incarnent notre vision du mobilier contemporain : épuré, confortable et pensé pour durer.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card-image">
+              <a href="produit.html">
+                <img src="assets/images/produits/chaise-elia-01.svg" alt="Chaise Élia design en bois clair pour salle à manger">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Chaises</span>
+              <h3 class="product-name">Chaise Élia</h3>
+              <p class="product-desc">Chaise en bois clair, assise ergonomique et design minimaliste.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Chaise Élia">Commander sur WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <a href="produit.html">
+                <img src="assets/images/produits/console-zayna-01.svg" alt="Console Zayna d'entrée en bois clair au design épuré">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Salons</span>
+              <h3 class="product-name">Console Zayna</h3>
+              <p class="product-desc">Console d'entrée fine et élégante, idéale pour les espaces restreints.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Console Zayna">Commander sur WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <a href="produit.html">
+                <img src="assets/images/produits/table-basse-01.svg" alt="Table basse en bois clair au design contemporain">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Salons</span>
+              <h3 class="product-name">Table basse Nour</h3>
+              <p class="product-desc">Table basse en bois clair, plateau rond et piétement sculpté.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Table basse Nour">Commander sur WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-image">
+              <a href="produit.html">
+                <img src="assets/images/produits/salon-jardin-01.svg" alt="Salon de jardin moderne avec fauteuils extérieurs">
+              </a>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Mobilier extérieur</span>
+              <h3 class="product-name">Salon de jardin Baha</h3>
+              <p class="product-desc">Ensemble extérieur résistant, coussins déhoussables et structure robuste.</p>
+              <div class="product-price"><span class="price-label">Prix sur demande</span></div>
+              <div class="product-card-actions">
+                <a href="produit.html" class="btn btn-secondary btn-sm">Voir le produit</a>
+                <a href="#" class="btn btn-whatsapp btn-sm wa-product" data-product-name="Salon de jardin Baha">Commander sur WhatsApp</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SHOWROOM / DELIVERY INFO
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="editorial reverse">
+          <div class="editorial-image">
+            <img src="assets/images/apropos/showroom-atelier.svg" alt="Showroom Atelier Bahaj — espace d'exposition lumineux">
+          </div>
+          <div class="editorial-content">
+            <span class="eyebrow">Showroom & livraison</span>
+            <h2>Vivez l'expérience Atelier Bahaj en showroom</h2>
+            <p>Nous vous accueillons dans notre showroom pour découvrir nos collections, toucher les matières et échanger sur votre projet d'aménagement. Nos conseillers vous accompagnent dans le choix de vos meubles, en fonction de votre espace, de vos envies et de votre budget.</p>
+            <p>Une livraison est organisée dans plusieurs villes du Maroc pour recevoir vos meubles directement chez vous, dans les meilleures conditions.</p>
+            <div class="flex gap-sm flex-wrap mt-md">
+              <a href="contact.html" class="btn btn-primary">Visiter notre showroom</a>
+              <a href="a-propos.html" class="btn btn-secondary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CUSTOMER REASSURANCE
+         ============================================================ -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Pourquoi choisir Atelier Bahaj</span>
+          <h2>Un accompagnement à chaque étape</h2>
+        </div>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+            </div>
+            <h3>Matières naturelles</h3>
+            <p>Bois clair, lin, cuir et céramique pour des intérieurs chaleureux et durables.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Confort étudié</h3>
+            <p>Des assises et des dimensions pensées pour le bien-être au quotidien.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 2l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3>Conseil en showroom</h3>
+            <p>Un accompagnement personnalisé pour composer votre intérieur.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.2 2.96c1 1.5 1 6.54-1 9.04-1 1.5-3 3-5 3-2 0-3-1-3-3"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>
+            </div>
+            <h3>Service client fiable</h3>
+            <p>Une équipe à votre écoute avant, pendant et après votre achat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+         ============================================================ -->
+    <section class="cta-section">
+      <div class="container">
+        <span class="eyebrow">Discutons de votre projet</span>
+        <h2>Prêt à illuminer votre intérieur ?</h2>
+        <p class="lead">Que vous cherchiez un canapé, une table à manger ou un aménagement complet, notre équipe vous accompagne avec plaisir. Contactez-nous sur WhatsApp ou demandez un devis personnalisé.</p>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-whatsapp btn-lg wa-general">
+            <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true" width="20" height="20"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+            Commander sur WhatsApp
+          </a>
+          <a href="contact.html" class="btn btn-primary btn-lg">Demander un devis</a>
+          <a href="collections.html" class="btn btn-secondary btn-lg">Voir les collections</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text">ATELIER BAHAJ<span>Le mobilier qui illumine votre intérieur</span></div>
+          <p>Magasin de meubles contemporains au Maroc. Salons, canapés, salle à manger, chambres et mobilier extérieur sélectionnés pour leur design et leur confort.</p>
+          <div class="footer-social mt-md">
+            <a href="#" class="wa-general" aria-label="WhatsApp Atelier Bahaj">
+              <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.001 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.257.59 4.46 1.71 6.402L3.2 28.8l6.563-1.722a12.74 12.74 0 0 0 6.238 1.622h.005c7.06 0 12.8-5.74 12.8-12.8 0-3.42-1.332-6.635-3.75-9.052A12.71 12.71 0 0 0 16.001 3.2z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram Atelier Bahaj">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook Atelier Bahaj">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="collections.html">Toutes les collections</a></li>
+            <li><a href="salons.html">Salons</a></li>
+            <li><a href="canapes.html">Canapés</a></li>
+            <li><a href="salle-a-manger.html">Salle à manger</a></li>
+            <li><a href="chambres.html">Chambres</a></li>
+            <li><a href="chaises.html">Chaises</a></li>
+            <li><a href="mobilier-exterieur.html">Mobilier extérieur</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atelier Bahaj</h4>
+          <ul>
+            <li><a href="a-propos.html">Notre histoire</a></li>
+            <li><a href="a-propos.html#showroom">Showroom</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Demander un devis</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Showroom — adresse à compléter</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+212 6 00 00 00 00</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>contact@atelierbahaj.ma</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Lun – Sam : 9h – 19h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Atelier Bahaj — Tous droits réservés. Le mobilier qui illumine votre intérieur.</p>
+        <p>Magasin de meubles design au Maroc</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
