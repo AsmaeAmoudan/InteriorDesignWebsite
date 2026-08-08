@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Fauteuil Lina — vue 1">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8C3A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B79B78" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="0" y="576" width="800" height="224" fill="url(#floor)"/>
+  
+  <g opacity="0.9">
+    <rect x="288" y="200" width="224" height="240" rx="6" fill="#D8C3A5"/>
+    <rect x="288" y="416" width="224" height="48" rx="2" fill="#B79B78"/>
+    <rect x="304" y="463" width="32" height="112" fill="#292725"/>
+    <rect x="463" y="463" width="32" height="112" fill="#292725"/>
+  </g>
+  <text x="400" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#746E67" letter-spacing="2">Fauteuil Lina — vue 1</text>
+  <text x="400" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#746E67" letter-spacing="1">Fauteuil confortable en lin</text>
+</svg>

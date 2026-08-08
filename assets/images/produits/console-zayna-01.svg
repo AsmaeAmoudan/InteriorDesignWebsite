@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Console Zayna — vue 1">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8C3A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B79B78" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="0" y="576" width="800" height="224" fill="url(#floor)"/>
+  
+  <g opacity="0.9">
+    <rect x="160" y="336" width="480" height="40" rx="2" fill="#B79B78"/>
+    <rect x="192" y="376" width="32" height="176" fill="#292725"/>
+    <rect x="576" y="376" width="32" height="176" fill="#292725"/>
+    <ellipse cx="320" cy="304" rx="48" ry="24" fill="#C98F73" opacity="0.4"/>
+    <rect x="272" y="312" width="96" height="24" rx="1" fill="#D8C3A5"/>
+  </g>
+  <text x="400" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#746E67" letter-spacing="2">Console Zayna — vue 1</text>
+  <text x="400" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#746E67" letter-spacing="1">Console d'entrée design</text>
+</svg>

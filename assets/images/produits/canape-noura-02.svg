@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Canapé Noura — vue 2">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8C3A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B79B78" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="0" y="576" width="800" height="224" fill="url(#floor)"/>
+  
+  <g opacity="0.8">
+    <rect x="240" y="240" width="320" height="320" rx="8" fill="#D8C3A5"/>
+    <rect x="280" y="280" width="240" height="240" rx="4" fill="#FAF8F4"/>
+    <line x1="280" y1="400" x2="520" y2="400" stroke="#B79B78" stroke-width="1"/>
+    <line x1="400" y1="280" x2="400" y2="520" stroke="#B79B78" stroke-width="1"/>
+  </g>
+  <text x="400" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#746E67" letter-spacing="2">Canapé Noura — vue 2</text>
+  <text x="400" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#746E67" letter-spacing="1">Détail de l'assise</text>
+</svg>
