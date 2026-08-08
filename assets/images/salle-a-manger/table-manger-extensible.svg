@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Table à manger extensible">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F1EDE6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8C3A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B79B78" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="432" width="800" height="168" fill="url(#floor)"/>
+  
+  <g opacity="0.9">
+    <rect x="160" y="252" width="480" height="30" rx="2" fill="#B79B78"/>
+    <rect x="192" y="282" width="32" height="132" fill="#292725"/>
+    <rect x="576" y="282" width="32" height="132" fill="#292725"/>
+    <ellipse cx="320" cy="228" rx="48" ry="18" fill="#C98F73" opacity="0.4"/>
+    <rect x="272" y="234" width="96" height="18" rx="1" fill="#D8C3A5"/>
+  </g>
+  <text x="400" y="570" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#746E67" letter-spacing="2">Table à manger extensible</text>
+  <text x="400" y="588" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#746E67" letter-spacing="1">Bois clair et lignes modernes</text>
+</svg>
